@@ -1,8 +1,17 @@
-# Ignore XAMPP-related files
-xampp/
-htdocs/
+# Ignore database backup files  
+*.sql  
 
-# Ignore temporary files
-*.log
-*.env
-*.bak
+# Ignore environment files  
+.env  
+
+# Ignore system files  
+.DS_Store  
+Thumbs.db  
+
+# Ignore IDE/editor settings  
+.vscode/  
+.idea/  
+
+# Ignore vendor files (if using frameworks like Laravel)  
+vendor/
+node_modules/
