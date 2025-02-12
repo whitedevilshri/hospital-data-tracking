@@ -1,0 +1,8 @@
+# Ignore XAMPP-related files
+xampp/
+htdocs/
+
+# Ignore temporary files
+*.log
+*.env
+*.bak
